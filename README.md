@@ -1,2 +1,2 @@
 # Scroll-Exercise
-Scroll Exercise for Infinite Scroll (無限滾動) and Parallax Scrolling (視差滾動) simple implement without plugin.
+Scroll Exercise for ****Infinite Scroll (無限滾動)** and **Parallax Scrolling (視差滾動)** simple implement without plugin.

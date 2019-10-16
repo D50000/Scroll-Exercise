@@ -1,3 +1,29 @@
-#root li {
-    height: 300px;
+
+body {
+    background-color: #efefef;
 }
+
+h1 {
+    text-align: center;
+}
+
+#root .card {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: aliceblue;
+    height: 200px;
+    padding: 20px 10px 0px 10px;
+    margin: 10px 50px 0px 50px;
+}
+
+.Name {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.url {
+    font-size: x-large;
+}
+

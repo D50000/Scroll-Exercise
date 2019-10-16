@@ -12,12 +12,15 @@
 
 <body>
     <div id="root">
-        <h1>D50000 github</h1>
-        <ul>
-            <li v-for="ele in reposArray">
-                <span class="date">{{ ele.full_name }}</span>
-            </li>
-        </ul>
+        <h1><a href="https://github.com/D50000" target="_blank">D50000 github</a></h1>
+        <div class="container" >
+            <div class="card" v-for="ele in reposArray">
+                <span class="Name">Name: {{ ele.name }}</span>
+                <span class="description">Description: {{ ele.description }}</span>
+                <span class="created">Created Time: {{ ele.created_at }}</span>
+                <span class="url"><a v-bind:href="ele.html_url" target="_blank">Check It Out ⭐</a></span>
+            </div>
+        </div>
     </div>
 </body>
 
