@@ -44,7 +44,14 @@ var app = new Vue({
             var viewHeight = document.documentElement.clientHeight || window.innerHeight;
             var scrolledToBottom = Math.ceil(scrollTop + viewHeight) >= scrollHeight;
             // console.log(`${scrollTop} + ${viewHeight} >= ${scrollHeight} => ${scrolledToBottom}`);
+            this.fly();
             if(scrolledToBottom) this.swap();
+        },
+
+        fly () {
+            var move = document.querySelector(".parallax").offsetLeft + 5;
+            console.log(move);
+            document.querySelector(".parallax").setAttribute("style", "left:" + move +"px");
         }
     }
 })

@@ -1,6 +1,7 @@
 
 body {
     background-color: #efefef;
+    /* background-image: url("cuphead-008.jpg"); */
 }
 
 h1 {
@@ -27,3 +28,10 @@ h1 {
     font-size: x-large;
 }
 
+.parallax {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+}
